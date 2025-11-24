@@ -2,7 +2,7 @@
 A modern, fast, and fully responsive real-time chat application built with Next.js, React 19, TypeScript, and Socket.IO
 
 📸 Preview
-<div align="center"> <img src="./public/desktop.jpg" width="700" /> </div>
+<div align="center"> <img src="./public/desktop.jpg" width="900" height="580"/> </div>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <img src="./public/chat.jpg" width="320" height="580" />

@@ -5,8 +5,8 @@ A modern, fast, and fully responsive real-time chat application built with Next.
 <div align="center"> <img src="./public/desktop.jpg" width="700" /> </div>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./public/chat.jpg" width="320" height="180" />
-  <img src="./public/login.jpg" width="320" height="180" />
+  <img src="./public/chat.jpg" width="320" height="580" />
+  <img src="./public/login.jpg" width="320" height="580" />
 </div>
 ✨ Overview
 This project is a complete and advanced real-time chat system that supports sending text, image, and audio messages.

@@ -10,8 +10,7 @@ A modern, fast, and fully responsive real-time chat application built with Next.
 </div>
 
 
-
-
+<br/><br/><br/><br/>
 
 ✨ Overview
 This project is a complete and advanced real-time chat system that supports sending text, image, and audio messages.

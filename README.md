@@ -1,103 +1,98 @@
-# 💬 چت
+💬 Real-Time Chat App
+A modern, fast, and fully responsive real-time chat application built with Next.js, React 19, TypeScript, and Socket.IO
 
-یک اپلیکیشن چت کامل و زیبا با Next.js، React، و WebSocket (Socket.IO)
+📸 Preview
+<div align="center"> <img src="./public/chat.jpg" width="700" /> </div>
 
-## ✨ ویژگی‌ها
+✨ Overview
+This project is a complete and advanced real-time chat system that supports sending text, image, and audio messages.
+Its user-friendly design, modern interface, smooth animations, and persistent message storage make it an excellent choice for academic projects and educational use.
 
-- ✅ چت با WebSocket
-- ✅ ارسال پیام متنی
-- ✅ ارسال تصویر
-- ✅ ارسال پیام صوتی (ضبط صدا)
-- ✅ ذخیره پیام‌ها در localStorage
-- ✅ رابط کاربری زیبا و مدرن
-- ✅ پشتیبانی از دارک مود
-- ✅ نمایش وضعیت اتصال
-- ✅ نمایش وضعیت تایپ کردن
-- ✅ طراحی واکنش‌گرا (Responsive)
-- ✅ بهینه‌سازی شده
+⭐ Features
+.Real-time WebSocket messaging (Socket.IO)
+.Send text messages
+.Upload and send images
+.Record and send voice messages
+.Persistent message storage via localStorage
+.Online / offline connection status
+.Typing indicator
+.Multiple theme modes (Light, Dark, and additional color themes)
+.Fully responsive UI (Mobile & Desktop)
+.Clean, scalable, and modular code structure
 
-## 🚀 نصب و راه‌اندازی
+📁 Project Structure
+```
+realtime-chat/
+├── public/                  # Static images, icons, audio files (contains chat.jpg)
+├── server.js                # WebSocket server (Express + Socket.IO)
+├── src/
+│   ├── app/                 # App routes & pages
+│   ├── components/          # UI components
+│   ├── hooks/               # Custom hooks
+│   ├── lib/                 # Helper functions
+│   └── types/               # TypeScript types
+└── README.md
+```
 
-### 1. نصب وابستگی‌ها
+🛠️ Tech Stack
+.Next.js 16
+.React 19
+.TypeScript
+.Socket.IO
+.Express.js
+.Tailwind CSS
+.localStorage
 
-```bash
+🚀 Getting Started
+1️⃣ Clone the project
+```
+git clone https://github.com/yourusername/realtime-chat.git
+cd realtime-chat
+```
+
+2️⃣ Install dependencies
+```
 npm install
 ```
 
-### 2. اجرای پروژه
-
-```bash
+3️⃣ Run development mode
+```
 npm run dev
 ```
 
-این دستور هم سرور WebSocket (پورت 3001) و هم کلاینت Next.js (پورت 3000) را اجرا می‌کند.
+This starts:
 
-### 3. استفاده
+Next.js client → `http://localhost:3000`
+WebSocket server → `http://localhost:3001`
 
-1. مرورگر را باز کنید و به `http://localhost:3000` بروید
-2. نام خود را وارد کنید
-3. شروع به چت کنید!
+🎨 UI Highlights
+.Clean and modern layout
+.Smooth transitions and animations
+.Mobile-first responsive design
+.Multiple theme modes (Light, Dark, and additional color themes)
+.Persian-friendly RTL support (if enabled)
 
-## 📁 ساختار پروژه
+📱 How to Use
+.Text message: Type and press Enter
+.Send image: Click the 📷 image icon
+.Voice message: Hold 🎤 record button, speak, release to send
+.Typing indicator shows when others are typing
+.Connection status displays online/offline
 
-```
-realtime-chat/
-├── server.js              # سرور WebSocket
-├── src/
-│   ├── app/              # صفحات Next.js
-│   ├── components/       # کامپوننت‌های React
-│   ├── hooks/           # هوک‌های سفارشی
-│   ├── lib/             # کتابخانه‌ها و ابزارها
-│   └── types/           # تایپ‌های TypeScript
-└── public/              # فایل‌های استاتیک
-```
-
-## 🛠️ تکنولوژی‌ها
-
-- **Next.js 16** - فریمورک React
-- **React 19** - کتابخانه UI
-- **TypeScript** - تایپ‌ایمنی
-- **Socket.IO** - WebSocket برای چت
-- **Express** - سرور Node.js
-- **Tailwind CSS** - استایل‌دهی
-- **localStorage** - ذخیره پیام‌ها
-
-## 📝 اسکریپت‌ها
-
-- `npm run dev` - اجرای سرور و کلاینت به صورت همزمان
-- `npm run server` - اجرای فقط سرور WebSocket
-- `npm run client` - اجرای فقط کلاینت Next.js
-- `npm run build` - ساخت پروژه برای production
-- `npm start` - اجرای نسخه production
-
-## 🎨 ویژگی‌های UI
-
-- طراحی مدرن و زیبا
-- پشتیبانی از دارک مود
-- انیمیشن‌های نرم
-- رابط کاربری فارسی
-- واکنش‌گرا برای موبایل و دسکتاپ
-
-## 🔧 تنظیمات
-
-می‌توانید پورت سرور را در فایل `server.js` تغییر دهید:
-
-```javascript
+⚙️ Configuration
+.Change WebSocket port in `server.js`:
+```js
 const PORT = process.env.PORT || 3001;
 ```
 
-## 📱 استفاده
+🐛 Troubleshooting
+.Port 3001 must be free
+.Microphone permissions must be allowed
+.Clear `localStorage` if messages don't load
+.Restart server if WebSocket connection drops
 
-1. **ارسال پیام متنی**: متن را بنویسید و Enter بزنید یا روی دکمه ارسال کلیک کنید
-2. **ارسال تصویر**: روی آیکون تصویر کلیک کنید و فایل را انتخاب کنید
-3. **ارسال صدا**: دکمه میکروفون را نگه دارید و صحبت کنید، سپس رها کنید
+🤝 Contributing
+Pull requests and issues are welcome.
+For major changes, open an issue first.
 
-## 🐛 رفع مشکلات
-
-- اگر سرور متصل نشد، مطمئن شوید که پورت 3001 آزاد است
-- برای استفاده از میکروفون، باید دسترسی مرورگر را بدهید
-- پیام‌ها در localStorage ذخیره می‌شوند و بعد از بستن مرورگر باقی می‌مانند
-
-## 📄 لایسنس
-
-این پروژه برای استفاده شخصی و آموزشی است.
+######  *Designed & Developed • 2025*

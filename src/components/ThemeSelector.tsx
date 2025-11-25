@@ -16,13 +16,13 @@ const themes: {
 }[] = [
   { 
     value: 'light', 
-    name: 'روشن', 
+    name: 'light', 
     icon: (
       <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
       </svg>
     ),
-    color: '#FBBC04', // Google Yellow
+    color: '#FBBC04',
     bgGradient: 'from-amber-400 via-yellow-400 to-orange-400',
     hoverBg: 'hover:bg-amber-50/80 dark:hover:bg-amber-950/30',
     activeBg: 'bg-gradient-to-r from-amber-100/90 to-yellow-100/90 dark:from-amber-900/40 dark:to-yellow-900/40',
@@ -30,13 +30,13 @@ const themes: {
   },
   { 
     value: 'dark', 
-    name: 'تاریک', 
+    name: 'dark', 
     icon: (
       <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12.34 2.02C6.59 1.82 2 6.42 2 12c0 5.52 4.48 10 10 10 3.71 0 6.93-2.02 8.66-5.02-7.51-.25-13.12-6.11-13.12-13.11 0-.21 0-.42.01-.63.49-.31 1.02-.54 1.58-.72-.09.23-.16.47-.16.72 0 1.08.9 1.96 2 1.96s2-.88 2-1.96c0-.25-.07-.49-.16-.72.56.18 1.09.41 1.58.72.01.21.01.42.01.63 0 7-5.61 12.86-13.12 13.11C5.07 18.98 8.29 21 12 21c5.52 0 10-4.48 10-10 0-5.58-4.59-10.18-10.34-9.98z"/>
       </svg>
     ),
-    color: '#4285F4', // Google Blue
+    color: '#4285F4', 
     bgGradient: 'from-slate-600 via-gray-700 to-slate-800',
     hoverBg: 'hover:bg-slate-50/80 dark:hover:bg-slate-800/50',
     activeBg: 'bg-gradient-to-r from-slate-100/90 to-gray-100/90 dark:from-slate-800/50 dark:to-gray-800/50',
@@ -44,13 +44,13 @@ const themes: {
   },
   { 
     value: 'blue', 
-    name: 'آبی', 
+    name: 'blue', 
     icon: (
       <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
       </svg>
     ),
-    color: '#4285F4', // Google Blue
+    color: '#4285F4', 
     bgGradient: 'from-blue-500 via-blue-600 to-indigo-600',
     hoverBg: 'hover:bg-blue-50/80 dark:hover:bg-blue-950/30',
     activeBg: 'bg-gradient-to-r from-blue-100/90 to-indigo-100/90 dark:from-blue-900/40 dark:to-indigo-900/40',
@@ -58,13 +58,13 @@ const themes: {
   },
   { 
     value: 'purple', 
-    name: 'بنفش', 
+    name: 'purple', 
     icon: (
       <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
       </svg>
     ),
-    color: '#9C27B0', // Material Purple
+    color: '#9C27B0', 
     bgGradient: 'from-purple-500 via-purple-600 to-pink-500',
     hoverBg: 'hover:bg-purple-50/80 dark:hover:bg-purple-950/30',
     activeBg: 'bg-gradient-to-r from-purple-100/90 to-pink-100/90 dark:from-purple-900/40 dark:to-pink-900/40',
@@ -72,13 +72,10 @@ const themes: {
   },
   { 
     value: 'green', 
-    name: 'سبز', 
+    name: 'green', 
     icon: (
-      <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-      </svg>
-    ),
-    color: '#34A853', // Google Green
+<svg fill="#ffffff" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z"></path></g></svg>    ),
+    color: '#3d8a47', 
     bgGradient: 'from-green-500 via-emerald-500 to-teal-500',
     hoverBg: 'hover:bg-green-50/80 dark:hover:bg-green-950/30',
     activeBg: 'bg-gradient-to-r from-green-100/90 to-emerald-100/90 dark:from-green-900/40 dark:to-emerald-900/40',
